@@ -23,7 +23,7 @@ header {
   padding: 10px 60px;
   align-items: center;
   box-shadow: whitesmoke;
-  background-color: rgba(0, 0, 0, 0.89);
+  background-color: rgb(0, 0, 0);
   justify-content: space-between;
 }
 
@@ -53,7 +53,7 @@ header a img {
 .main-nav .main-nav__item .main-nav__items a {
   padding: 30px 20px;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.808);
+  color: rgba(255, 255, 255, 0.808);
   font-size: 85%;
   font-weight: 200;
 }
