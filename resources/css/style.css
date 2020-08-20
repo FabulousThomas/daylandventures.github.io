@@ -213,6 +213,8 @@ header a img {
   padding: 10px;
 }
 .about .about__content h2 {
+  /* width: 60%;
+  margin: auto; */
   font-size: 18px;
   font-weight: 200;
   font-family: cursive;
