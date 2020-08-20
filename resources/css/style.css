@@ -10,7 +10,8 @@ html,
 body {
   text-rendering: optimizeLegibility;
   font-family: 'Times New Roman', Times, serif;
-  background-color: rgb(36, 36, 36);
+  /* background-color: rgb(36, 36, 36); */
+  background-color: rgb(232, 234, 237);
 }
 
 header {
@@ -23,7 +24,10 @@ header {
   padding: 10px 60px;
   align-items: center;
   box-shadow: whitesmoke;
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
+  background-color: #75d3ff;
+  border-bottom-right-radius: 50px;
+  color: #202124;
   justify-content: space-between;
 }
 
@@ -53,7 +57,8 @@ header a img {
 .main-nav .main-nav__item .main-nav__items a {
   padding: 30px 20px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.808);
+  /* color: rgba(255, 255, 255, 0.808); */
+  color: rgb(32, 33, 36);
   font-size: 85%;
   font-weight: 200;
 }
@@ -62,6 +67,7 @@ header a img {
  background-color: red;
   color: #fff;
   animation: turn 500ms 2s 5 none;
+  border-radius: 0 0 40px 0;
 }
 
 .main-nav .main-nav__item .main-nav__items a:hover {
@@ -105,7 +111,8 @@ header a img {
   text-decoration: underline;
   font-size: 30px;
   word-spacing: 5px;
-  color: rgb(255, 0, 0);
+  /* color: rgb(255, 0, 0); */
+  color: rgb(32, 33, 36);
   animation: turn 500ms 2s 7 none;
 }
 
@@ -157,7 +164,7 @@ header a img {
   height: 30px;
   margin-bottom: 10px;
   text-align: center;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.753);
   word-spacing: 2px;
   text-transform: uppercase;
 }
@@ -174,11 +181,26 @@ header a img {
   padding-top: 80px;
 } */
 
+.icon {
+  color: rgb(255, 0, 0);
+  float: right;
+  margin-right: 10px;
+  /* position: fixed;
+  position: static; */
+
+}
+.icon img {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  display: inline-block;
+}
+
 .about {
   text-align: center;
   /* padding: 80px; */
   margin-bottom: 56px;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.753);
 }
 .about .about__content .title {
   text-decoration: underline;
@@ -192,20 +214,27 @@ header a img {
 }
 .about .about__content h2 {
   font-size: 18px;
+  font-weight: 200;
+  font-family: cursive;
 }
 
 .contact {
-  background-color: rgba(0, 0, 0, 0.884);
+  /* background-color: rgba(0, 0, 0, 0.884); */
+  background-color: #75d3ff;
   width: 100%;
   height: 40vh;
   text-align: center;
-  padding: 10px;
+  padding: 30px;
+  border-top-left-radius: 50px;
 }
 .contact .contact__content p {
-  margin: 10px;
+  margin: 5px;
+  color: rgb(32, 33, 36);
+  font-weight: bolder;
 }
 .contact .contact__content a {
-  color: white;
+  /* color: white; */
+  color: rgb(32, 33, 36);
   text-decoration: underline;
   text-align: center;
 }
